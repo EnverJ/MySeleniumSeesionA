@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hub Spot sanity  Suite">
+<listeners>
+<!--    <listener class-name="com.qa.hubspot.listeners.pdfListener"/>
+  -->   <listener class-name="com.qa.hubspot.listeners.ExtentReportListener"/>
+</listeners>
+  <test name="Hub Spot sanity Tests">
+    <classes>
+      <class name="com.qa.hubspot.allMyTest.loginPageTest"></class>
+    </classes>
+  </test> 
+</suite>
